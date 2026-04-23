@@ -12,6 +12,6 @@ export default defineConfig({
       },
     },
     server: {
-      allowedHosts: [''],
+      allowedHosts: ['https://portfolio-8myl.onrender.com'],
     },
 });
