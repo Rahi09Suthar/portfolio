@@ -101,7 +101,7 @@ export const Contact = () => {
                 <input 
                   type="text" 
                   required
-                  placeholder="John Doe"
+                  placeholder="Name"
                   className="w-full bg-white/5 border border-white/5 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-purple-500/50 transition-all text-slate-200 placeholder:text-slate-600"
                   value={formState.name}
                   onChange={(e) => setFormState({...formState, name: e.target.value})}
